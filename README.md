@@ -202,6 +202,6 @@ import { fetchApiLatency } from "@/api/opsApi";
 
 👤 Author
 ----------
-Joe Sleiman
-Frontend Engineer
+**Joe Sleiman**<br />
+Frontend Engineer<br />
 React · TypeScript · Dashboards · Performance
