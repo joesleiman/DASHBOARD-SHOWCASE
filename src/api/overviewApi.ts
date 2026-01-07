@@ -37,3 +37,10 @@ export function fetchRevenueToday(): Promise<RevenueResponse> {
         timestamp: new Date().toISOString(),
     }));
 }
+
+export function fetchAlwaysFailingMetric(): Promise<unknown> {
+    return simulateRequest(
+        () => ({}),
+        { forceFail: true, errorMessage: "Demo error: this widget is designed to fail." }
+    );
+}

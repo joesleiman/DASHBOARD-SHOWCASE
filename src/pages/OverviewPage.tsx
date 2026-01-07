@@ -2,6 +2,7 @@ import DashboardCard from "@/components/shared/DashboardCard";
 import ActiveUsersChart from "@/components/charts/overview/ActiveUsersChart";
 import SignupsTodayChart from "@/components/charts/overview/SignupsTodayChart";
 import RevenueTodayChart from "@/components/charts/overview/RevenueTodayChart";
+import AlwaysFailChart from "@/components/charts/overview/AlwaysFailChart";
 
 export default function OverviewPage() {
   return (
@@ -21,6 +22,10 @@ export default function OverviewPage() {
 
         <DashboardCard title="Revenue Today">
           <RevenueTodayChart />
+        </DashboardCard>
+
+        <DashboardCard title="Always fail Chart">
+          <AlwaysFailChart />
         </DashboardCard>
       </div>
     </section>
